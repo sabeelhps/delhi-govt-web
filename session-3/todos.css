@@ -1,0 +1,32 @@
+
+/* Element Selector */
+
+
+li{
+    color:purple;
+}
+
+h1{
+    border:2px solid green;
+    background-color: orange;
+    text-align: center;
+}
+
+/* ID selector */
+
+#special{
+    background-color: red;
+    color:white;
+}
+
+#other{
+    font-weight: 900;
+    color:blue;
+}
+
+/* Class Selector */
+
+.hello{
+    color:orangered;
+    border:1px solid purple;
+}
