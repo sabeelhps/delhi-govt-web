@@ -1,6 +1,54 @@
 
-/* Universal selector */
+/* Selector Basics */
+/* 
+h1,h4{
 
+    text-decoration: line-through;
+}
+/* Universal selector */
+/* 
 *{
     border:2px solid grey;
+} */
+
+/* Decendent Selector */
+
+/* ul li a{
+    background-color: red;
+} */
+
+/* Adjacent Selector */
+/* 
+h4 + ul{
+    background-color: plum;
+} */ 
+
+/* Attribute Selector */
+
+/* a[href="http://www.google.com"]{
+    border:3px solid brown;
+} */
+
+/* input[type="text"]{
+    background-color: cornflowerblue;
+} */
+
+
+*{
+    border:1px solid grey;
+}
+
+/* nth-of-type */
+li:nth-of-type(2n+1){
+    background-color: darkcyan;
+}
+
+p:nth-of-type(1){
+    background-color: darkgoldenrod;
+    font-size:30px;
+    text-transform: capitalize;
+}
+
+p:nth-of-type(4){
+    background-color: darkgoldenrod;
 }

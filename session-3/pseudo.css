@@ -1,0 +1,46 @@
+
+
+.square{
+    border:2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.square:hover{
+    border-radius: 200px;
+    background-color: coral;
+    cursor: pointer;
+}
+
+h1{
+    border:1px solid black;
+    width: 500px;
+}
+
+h1:hover{
+    color:chocolate;
+    border-radius: 50%;
+    text-transform: uppercase;
+}
+
+a[href="http://wikipedia.org"]:visited{
+    color:red;
+}
+
+a[href="http://facebook.com"]:visited{
+    color:green;
+}
+
+a:nth-of-type(3):visited{
+    color:green;
+}
+
+input:focus{
+    background-color: coral;
+}
+
+
+
+
+
