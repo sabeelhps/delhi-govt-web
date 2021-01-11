@@ -1,0 +1,35 @@
+
+body{
+    border:15px solid #8d99ae;
+    max-width:700px;
+    padding: 15px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 20px auto;
+}
+
+.date{
+    color:#0077b6;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    color: #2b2d42;
+    font-size:2rem;
+    font-weight: 900;
+}
+
+.one{
+    border-left: 5px solid #8d99ae;
+    padding-left:5px;
+}
+
+hr{
+
+    border:0;
+    height:0;
+
+    border-top:1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+
+}

@@ -1,0 +1,23 @@
+
+div{
+    height: 50px;
+    width: 200px;
+    border: 3px solid black;
+    margin :60px auto;
+}
+
+#one{
+    background-color:green;
+}
+
+#two{
+    background-color: #ee6c4d;
+}
+
+#three{
+    background-color: rgb(156, 227, 145);
+}
+
+#four{
+    background-color: rgba(128, 153, 53, 0.7);
+}

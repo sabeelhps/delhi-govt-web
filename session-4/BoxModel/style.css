@@ -1,0 +1,25 @@
+
+/* Box Model Properties */
+
+p{
+    /* width,height */
+
+    width: 200px;
+  
+
+    /* Border */
+
+    border:2px solid green;
+
+
+    /* Margin */
+
+    /* margin-bottom:100px; */
+    margin: 100px 40px;
+
+
+    /* Padding */
+
+    padding: 20px 30px;
+
+}
