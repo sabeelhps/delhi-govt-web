@@ -1,0 +1,45 @@
+
+body{
+    perspective: 800px;
+}
+
+div{
+    height: 250px;
+    width: 400px;
+    margin: 0px auto;
+}
+
+.side-a{
+    /* background-color: #006466; */
+    z-index:1;
+}
+
+.side-b{
+    background-color: #f2cc8f;
+    transform: rotateY(180deg);
+}
+
+.side-a,.side-b{
+    position: absolute;
+    backface-visibility: hidden;
+ 
+}
+
+.wrap{
+    transition: 2s;
+    transform-style: preserve-3d;
+}
+
+.wrap:hover{
+    transform: rotateY(180deg);
+}
+
+h4,p{
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+h4{
+    text-align: center;
+    font-size:1.3rem;
+}
