@@ -1,0 +1,22 @@
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    background-color: #06d6a0;
+    border-radius: 50%;
+    margin:0px auto;
+    animation-play-state: running;
+
+    animation: bounce 2s 9 alternate ease-in forwards;
+}
+
+@keyframes bounce{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(665px);
+    }
+}
+

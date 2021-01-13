@@ -1,0 +1,38 @@
+
+div{
+    height: 50px;
+    width: 80%;
+    margin: 30px;
+    border:2px solid black;
+    animation: special 4s 1;
+}
+
+@keyframes special{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+
+
+#one{
+    background-color: palevioletred;
+    animation-timing-function: ease-in;
+}
+
+#two{
+    background-color: olivedrab;
+    animation-timing-function: cubic-bezier(0.19, 1, -0.22, 1);
+}
+
+#three{
+    background-color:orange;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+#four{
+    background-color: brown;
+    animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
