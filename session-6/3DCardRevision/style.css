@@ -1,0 +1,43 @@
+
+body{
+    perspective: 800px;
+}
+
+div{
+    height: 300px;
+    width: 400px;
+    border:1px solid black;
+    margin: 0px auto;
+}
+
+.side-a{
+    background-color: red;
+    z-index:1;
+}
+
+.side-b{
+    background-color: #cb997e;
+    transform: rotateY(180deg);
+}
+
+.side-a,.side-b{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.wrap{
+    transition: 2s;
+    transform-style: preserve-3d;
+}
+
+.wrap:hover{
+    transform: rotateY(180deg);
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    margin:0px 20px;
+}
