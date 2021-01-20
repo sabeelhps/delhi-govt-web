@@ -12,12 +12,12 @@
 // Fun("Kartik");
 
 
-function add(x,y){
-    this.x=x;
-    this.y=y;
-}
+// function add(x,y){
+//     this.x=x;
+//     this.y=y;
+// }
 
-add(2,3);
+// add(2,3);
 
 
 
