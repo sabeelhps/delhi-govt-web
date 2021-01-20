@@ -1,0 +1,37 @@
+b.age
+21
+b.age=25;
+25
+b.age
+25
+b
+{age: 25}
+c.age
+25
+c.hasOwnProperty('name')
+false
+c.name
+"Sabeel"
+c.hasOwnProperty('name')
+false
+b.hasOwnProperty('name')
+false
+a.hasOwnProperty('name')
+true
+a.hasOwnProperty('age')
+
+
+------------------------------------------------------------------
+
+c
+{}
+c.__proto__
+{name: "Kartik", age: 25, sayHello: ƒ}
+c.__proto__ === b
+true
+b.__proto__ === a
+true
+a.__proto__ === Object.prototype
+true
+Object.prototype.__proto__
+null
