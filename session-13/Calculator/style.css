@@ -5,7 +5,7 @@ body{
 
 .container{
     background-color: #fcbf49;
-    height: 700px;
+    height: 750px;
     width: 50%;
     border: 2px solid green;
     margin: 20px auto;
@@ -23,8 +23,8 @@ table{
 
 #screen{
     display: block;
-    margin: 20px auto;
-    border: 1px solid black;
+    margin: 30px auto;
+    border: 2px solid black;
     width: 440px;
     font-size: 50px;
     border-radius: 10px;
